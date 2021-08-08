@@ -1,5 +1,4 @@
 <?php
-//http://keithdevens.com/software/php_calendar
 $time = time();
 $today = date('j', $time);
 $days = array($today => array(null, null,'<div id="today">' . $today . '</div>'));
